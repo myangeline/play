@@ -40,27 +40,22 @@
 2. 在models目录下新建java类，Post
 3. Post类内容如下：
 
-
-    package models;
-    import com.avaje.ebean.Model;
-    import javax.persistence.Entity;
-    import javax.persistence.Id;
-    import javax.persistence.Table;
-    
-    /**
-     * Created by sunshine on 2015/8/18.
-     */
-    
-    @Entity
-    @Table(name="simple_post")
-    public class Post extends Model{
-        @Id
-        public Long id;
-        public String title;
-        public String content;
-    
-        public static final Finder<Long,Post> find = new Finder<>(Post.class);
-    }
+        package models;
+        import com.avaje.ebean.Model;
+        import javax.persistence.Entity;
+        import javax.persistence.Id;
+        import javax.persistence.Table;
+        
+        @Entity
+        @Table(name="simple_post")
+        public class Post extends Model{
+            @Id
+            public Long id;
+            public String title;
+            public String content;
+        
+            public static final Finder<Long,Post> find = new Finder<>(Post.class);
+        }
     
 5. 重新运行程序，会出现创建数据的提示，直接apply就可以，这样就会自动在数据库中创建对应的表
 以后的增删改查的操作都是在Model中有定义的
