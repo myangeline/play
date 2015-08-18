@@ -1,5 +1,5 @@
-# play框架的安装
-简单记录下play框架的安装
+# play framework的安装
+简单记录下play framework的安装
 
 ## 参考资料
 >* 官网: https://www.playframework.com
