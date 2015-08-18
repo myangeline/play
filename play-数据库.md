@@ -67,7 +67,7 @@
 
 老的版本中使用的Model在 `play.db.ebean`这个包中，不过新版本已经更换了，变成了`com.avaje.ebean.Model`
 具体关于EBean的内容可以参看：
->*https://ebean-orm.github.io/docs
+>https://ebean-orm.github.io/docs
 
 
 
