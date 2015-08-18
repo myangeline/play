@@ -2,9 +2,9 @@
 简单记录下play框架的安装
 
 ## 参考资料
-官网: https://www.playframework.com
-下载: https://www.playframework.com/download
-typesafe github: https://github.com/typesafehub/activator
+>* 官网: https://www.playframework.com
+>* 下载: https://www.playframework.com/download
+>* typesafe github: https://github.com/typesafehub/activator
 
 
 ## 1. 准备
@@ -47,7 +47,8 @@ activator创建新的project的命令如下：
 
 ## 3. 将工程装换成eclipse或者IDEA项目
 这个转换官网有例子：
-https://www.playframework.com/documentation/2.4.x/IDE
+>* https://www.playframework.com/documentation/2.4.x/IDE
+
 IDEA中可以直接创建play的项目，不过由于sbt的原因，创建过程异常缓慢，要下载很多文件包括Scala的jar包，
 而且很多需要翻墙，最重要的是即便翻墙了还是慢，源就不是很好，没办法
 
